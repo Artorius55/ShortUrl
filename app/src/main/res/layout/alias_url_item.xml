@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_4x">
+
+    <TextView
+        style="@style/boldText"
+        android:id="@+id/tv_short"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_2x"
+        android:maxLines="2"
+        android:ellipsize="end"
+        tools:text="http://localhost:3000/api/alias/1622435814"/>
+
+    <TextView
+        style="@style/italicText"
+        android:id="@+id/tv_self"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:ellipsize="end"
+        tools:text="http://www.google.com"/>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShortUrl</string>
+    <string name="input_hint">http://www.url.com</string>
+    <string name="empty_message">Write an URL and lets begin!</string>
+    <string name="bad_url_error_message">Please provide a valid URL</string>
+    <string name="short_url_error_message">An error has occurred, please try again</string>
+</resources>
